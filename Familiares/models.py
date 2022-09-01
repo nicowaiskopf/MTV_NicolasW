@@ -9,4 +9,4 @@ class hermanas(models.Model):
 class padres(models.Model):
     nombre=models.CharField(max_length=20)
     edad=models.IntegerField()
-    nacimiento=models.DateField()
+    nacimiento=models.CharField(max_length=8)

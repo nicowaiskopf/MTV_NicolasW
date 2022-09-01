@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MTV_Waiskopf.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/User/Nico/Documents/MTV_Nicolas/Plantilla/Plantilla1.html"],
+        'DIRS': ["C:/Users/Nico/Documents/MTV_Nicolas/Plantilla/plantilla1.html/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

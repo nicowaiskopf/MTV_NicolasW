@@ -20,5 +20,9 @@ from Familiares.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hermana1/', Hermana1),
+    path('hermana2/', Hermana2),
+    path('hermana3/', Hermana3),
+    path('papa/', Padre), 
+    path('mama/', madre),  
     path("htmlnico/", HtmlNicolas),
 ]
